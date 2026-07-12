@@ -24,4 +24,4 @@ It allows different Dot net langs to work togather through Comman type system (C
 - ## unmanaged code:- before .net There were technology which do not produced cil so that were managed by operating system
 - ## Garbage collection([[GC]]) 
 - [[JIT]]
-- ## CTS (common type system) This ensures that data types accross different Languageare understood 
+- ## CTS (common type system) This ensures that data types accross different Language are understood .
