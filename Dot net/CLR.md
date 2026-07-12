@@ -25,4 +25,3 @@ It allows different Dot net langs to work togather through Comman type system (C
 - ## Garbage collection([[GC]]) 
 - [[JIT]]
 - ## CTS (common type system) This ensures that data types accross different Languageare understood 
-- It 
