@@ -21,7 +21,10 @@ It allows different Dot net langs to work togather through Comman type system (C
 # key components:- 
 - ## Managed code:- The cil code managed by CLR
 - ## unmanaged code:- before .net There were technology which do not produced cil so that were managed by operating system
-- ## Gcollection([[GC]]) 
+- [[GC]]
 - [[JIT]]
 - ## CTS (common type system) This ensures that data types accross different Language are understood .
 - ##  CLS (common Language specification) It defines common rules so that code written in different languages can interpolate
+- ## value type:- value types will store the value directly into the memory location these types work with stack mechanism only .
+
+
