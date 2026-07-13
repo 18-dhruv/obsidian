@@ -5,7 +5,6 @@
 It is responsible for loading and execution of code writtein various Dot net programming lang 
 - When C# program is compiled  , It is first converted into CLI (Comman intermediate Language) This is done by Language compilers in case of C Sharp It is CSE.==exe==
 - This code can run on any platform that has CLR
-- 
 - when cli Program is executed it is first converted into ==machine - specific code by== ==CLR==
 # Working of CLR :-
 ## Compilation and execution :-
