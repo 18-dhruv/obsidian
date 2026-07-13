@@ -5,7 +5,7 @@
 It is responsible for loading and execution of code writtein various Dot net programming lang 
 - When C# program is compiled  , It is first converted into CLI (Comman intermediate Language) This is done by Language compilers in case of C Sharp It is CSE.==exe==
 - This code can run on any platform that has CLR
-- when cli Program is executed it is first converted into ==machine - specific code by== ==CLR==
+- when cil Program is executed it is first converted into ==machine - specific code by== ==CLR==
 # Working of CLR :-
 ## Compilation and execution :-
  - when we write ==c sharp== code it get converted into  Cil
@@ -21,6 +21,7 @@ It allows different Dot net langs to work togather through Comman type system (C
 # key components:- 
 - ## Managed code:- The cil code managed by CLR
 - ## unmanaged code:- before .net There were technology which do not produced cil so that were managed by operating system
-- ## Garbage collection([[GC]]) 
+- ## Gcollection([[GC]]) 
 - [[JIT]]
 - ## CTS (common type system) This ensures that data types accross different Language are understood .
+- ##  CLS (common Language specification) It defines common rules so that code written in different languages can interpolate
