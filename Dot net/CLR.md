@@ -26,6 +26,7 @@ It allows different Dot net langs to work togather through Comman type system (C
 - ## CTS (common type system) This ensures that data types accross different Language are understood .
 - ##  CLS (common Language specification) It defines common rules so that code written in different languages can interpolate
 - ## value type:- value types will store the value directly into the memory location these types work with stack mechanism only der allows memory at compile tym
-##  Reference type
+##  Reference type:-
+
 
 
