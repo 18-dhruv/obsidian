@@ -12,7 +12,7 @@ It is responsible for loading and execution of code writtein various Dot net pro
  - when we write ==c sharp== code it get converted into [[CLR#^first-mention|CLI]] and metadata( this metadata  tells  that what are the datatype what are there definations, to which member this data type reference)
  - then CLR uses [[JIT]] to convert into machine specific code (It happens when program runs). 
 ## Services provided by CLR :-
-- CLR handles automatic memory management through GC, prevents memory leaks 
+- CLR handles [[automatic memory management]] through GC, prevents memory leaks 
 - It ensures that data type is used safely and correctly 
 - The CLR checks for CLI code for security risks before runing it 
 
