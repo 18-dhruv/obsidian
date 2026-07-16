@@ -3,12 +3,13 @@
 - [[CLR/JIT]]
 # **CLR** (Common language Runtime)
 It is responsible for loading and execution of code writtein various Dot net programming lang 
-- When C# program is compiled  , It is first converted into CLI (Comman intermediate Language) This is done by Language compilers in case of C Sharp It is CSE.==exe==
+- When C# program is compiled  , It is first converted into CLI.  ^first-mention
+- (Comman intermediate Language) This is done by Language compilers in case of C Sharp It is CSE.==exe==
 - This code can run on any platform that has CLR
 - when cil Program is executed it is first converted into ==machine - specific code by== ==CLR==
 # Working of CLR :-
 ## Compilation and execution :-
- - when we write ==c sharp== code it get converted into  Cil and metadata( this metadata  tells  that what are the datatype what are there definations, to which member this data type reference)
+ - when we write ==c sharp== code it get converted into [[CLR#^first-mention|CLI]] and metadata( this metadata  tells  that what are the datatype what are there definations, to which member this data type reference)
  - then CLR uses [[JIT]] to convert into machine specific code (It happens when program runs). 
 ## Services provided by CLR :-
 - CLR handles automatic memory management through GC, prevents memory leaks 
@@ -26,7 +27,7 @@ It allows different Dot net langs to work togather through Comman type system (C
 - ## CTS (common type system) This ensures that data types accross different Language are understood .
 - ##  CLS (common Language specification) It defines common rules so that code written in different languages can interpolate
 - ## value type:- value types will store the value directly into the memory location these types work with stack mechanism only der allows memory at compile tym
-##  Reference type:-
+- ##  Reference type:-
 
 
 
