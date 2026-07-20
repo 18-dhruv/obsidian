@@ -6,7 +6,7 @@
 Before you can run cil, it must be compiled against the CRE to native code for the target machine architecture
 ### there are two ways to perform this conversion 
 - [[JIT]]
-- 
+- [[Ngen.exe(Native image Generator)]]
 
 
 

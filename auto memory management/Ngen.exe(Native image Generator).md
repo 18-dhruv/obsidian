@@ -1,0 +1,1 @@
+#  the native image generator is a tool to improve the performance of managed application. It creates native images, which are files containing comp machine codeiled processor specific
