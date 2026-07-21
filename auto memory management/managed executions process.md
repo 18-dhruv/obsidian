@@ -7,6 +7,7 @@ Before you can run cil, it must be compiled against the CRE to native code for t
 ### there are two ways to perform this conversion 
 - [[JIT]]
 - [[Ngen.exe(Native image Generator)]]
+use of them depends on what your application needs peak runtime performance or fast startup and low memory usage
 
 
 
