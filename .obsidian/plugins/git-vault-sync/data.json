@@ -1,0 +1,20 @@
+{
+  "remoteUrl": "https://github.com/18-dhruv/obsidian.git",
+  "branch": "main",
+  "authorName": "dhruv",
+  "authorEmail": "",
+  "username": "18-dhruv",
+  "token": "obsidian://show-plugin?id=git-vault-sync",
+  "commitMessage": "vault sync {{date}}",
+  "autoSyncEnabled": true,
+  "autoSyncInterval": 30,
+  "syncOnStartup": true,
+  "lastSyncAt": 1784616548774,
+  "excludePaths": ".obsidian/workspace.json\n.obsidian/workspace-mobile.json\n.DS_Store\n.trash/",
+  "language": "auto",
+  "syncEngine": "auto",
+  "apiBaseline": {
+    "commitSha": null,
+    "shas": {}
+  }
+}

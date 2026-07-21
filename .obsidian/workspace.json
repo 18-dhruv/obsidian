@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5242d1f8a2eed8b7",
+        "id": "896b6847cd69f4a4",
         "type": "tabs",
         "children": [
           {
-            "id": "72f0e4b61ac11d6e",
+            "id": "afded5f0e1afb2a0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Dot net/Dot net.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Dot net"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 241.5
   },
   "right": {
     "id": "6b8114ce53882a13",
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Dot net/Dot net.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Dot net"
             }
           },
           {
@@ -108,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CLI/CTS.md",
+                "file": "Dot net/Dot net.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from CTS"
+              "title": "Outgoing links from Dot net"
             }
           },
           {
@@ -151,20 +156,31 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CLI/CTS.md",
+                "file": "Dot net/CLR.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CTS"
+              "title": "Outline of CLR"
+            }
+          },
+          {
+            "id": "d40f81fe935c3fff",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,12 +194,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "72f0e4b61ac11d6e",
+  "active": "afded5f0e1afb2a0",
   "lastOpenFiles": [
-    "2026-07-12.md",
     "Untitled.base",
-    "CLI/CTS.md",
+    "Dot net/Dot net.md",
+    "dotnet_architecture_hierarchy.svg",
+    "dotnet_architecture_hierarchy.png",
+    "Creation_Image_1783868370536_1.png",
+    "Dot net/CLR.md",
+    "auto memory management/automatic memory management.md",
+    "CLR/GC.md",
+    "CLI/CLS.md",
+    "CLR/JIT.md",
+    "Dot net/FCL.md",
+    "auto memory management/managed executions process.md",
+    "auto memory management/Native Aot.md",
+    "auto memory management/crossgen.md",
     "CLR/CLI.md",
+    "auto memory management/Ngen.exe(Native image Generator).md",
+    "auto memory management",
+    "Dot net/2CLR.md",
+    "Dot net/CLR3.md",
+    "2026-07-12.md",
+    "CLI/CTS.md",
     "CLR.md",
     "CLI.md",
     "CLI",

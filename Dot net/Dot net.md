@@ -1,10 +1,10 @@
 - [[CLR]]
 - [[Dot net/FCL]]
 
-![[Creation_Image_1783868370536_1.png]]
 
 
 
+![[dotnet_architecture_hierarchy.svg|652]]
 
 
 # Dot net ecosystem
