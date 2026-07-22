@@ -1,4 +1,4 @@
-- [[CLR/CLI]]
+- [[CLI]]
 - [[CLR/GC]]
 - [[CLR/JIT]]
 # **CLR** (Common language Runtime)
