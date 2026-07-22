@@ -1,4 +1,4 @@
-- [[CLI]]
+-  [[CLI]]
 - [[CLR/GC]]
 - [[CLR/JIT]]
 # **CLR** (Common language Runtime)
@@ -12,7 +12,7 @@ It is responsible for loading and execution of code writtein various Dot net pro
  - when we write ==c sharp== code it get converte d into [[CLR#^first-mention|CLI]] and metadata( this metadata  tells  that what are the datatype what are there definations, to which member this data type reference)
  - then CLR uses [[JIT]] to convert into machine specific code (It happens when program runs). 
 ## Services provided by CLR :-
-- CLR handles [[automatic memory management]] through GC, prevents memory leaks 
+- CLR handles [[automatic memory management]] throug memory leaks 
 - It ensures that data type is used safely and correctly 
 - The CLR checks for CLI code for security risks before runing it 
 ====
@@ -31,3 +31,15 @@ It allows different Dot net langs to work togather through Comman type system (C
 
 
 
+# JVM US CLR.                                                                
+## 1. Intermidiate code.                     
+Jvm-Bytecode.                   
+Clr-CIL                      (Both  of them are Bytecod but CIL is for Multilanguage)
+
+# 2.Type system 
+JVM- single language system 
+CLR - CTS and CLS (common language specification)
+# 3. value type
+
+JAVA-primitive types only 
+Dot net- Primitive and custom type (you can create custom struct type)
