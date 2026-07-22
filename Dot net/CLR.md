@@ -1,4 +1,4 @@
--  [[CLI]]
+i-  [[CLI]]
 - [[CLR/GC]]
 - [[CLR/JIT]]
 # **CLR** (Common language Runtime)
@@ -21,7 +21,7 @@ It allows different Dot net langs to work togather through Comman type system (C
 
 # key components:- 
 - ## Managed code:- The cil code managed by CLR
-- ## unmanaged code:- before .net There were technology which do not produced cil so that were managed by operating system
+- ## unmanaged code:- before .net There~ ~were technology which do not produced cil so that were managed by operating system
 - [[GC]]
 - [[JIT]]
 - ## CTS (common type system) This ensures that data types accross different Language are understood .
