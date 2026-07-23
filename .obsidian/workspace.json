@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dot net/Dot net.md",
+                "file": "auto memory management/managed executions process.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dot net"
+              "title": "managed executions process"
             }
           }
         ]
@@ -196,13 +196,15 @@
   },
   "active": "afded5f0e1afb2a0",
   "lastOpenFiles": [
-    "Untitled.base",
+    "auto memory management/automatic memory management.md",
+    "IMG_20260723_110656.png",
+    "CLI/CLI.md",
     "Dot net/Dot net.md",
+    "Untitled.base",
     "dotnet_architecture_hierarchy.svg",
     "dotnet_architecture_hierarchy.png",
     "Creation_Image_1783868370536_1.png",
     "Dot net/CLR.md",
-    "auto memory management/automatic memory management.md",
     "CLR/GC.md",
     "CLI/CLS.md",
     "CLR/JIT.md",
