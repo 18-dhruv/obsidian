@@ -1,6 +1,4 @@
-i-  [[CLI]]
-- [[CLR/GC]]
-- [[CLR/JIT]]
+
 # **CLR** (Common language Runtime)
 It is responsible for loading and execution of code writtein various Dot net programming lang 
 - When C# program is compiled  , It is first converted into CLI.  ^first-mention
