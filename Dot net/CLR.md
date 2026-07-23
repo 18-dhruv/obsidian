@@ -15,7 +15,6 @@ It is responsible for loading and execution of code writtein various Dot net pro
 - CLR handles [[automatic memory management]] throug memory leaks 
 - It ensures that data type is used safely and correctly 
 - The CLR checks for CLI code for security risks before runing it 
-====
 ## Cross-language integration :-
 It allows different Dot net langs to work togather through Comman type system (CTS)
 
