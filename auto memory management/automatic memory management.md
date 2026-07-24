@@ -19,7 +19,11 @@ Every application roots include static feilds, local variables and parameters on
 Object that are not in the graph , are considered unreachable by GC so it frees the memory allocated to them. During this collection the GC will identify the memory addesses occupied by the unreachable objects, and after the collection it uses a memory copying function to compact the reachable objects in memory, after this process GC do the pointer correction so that roots point to objects new location. It also sets the heap pointer after the last reachable object.
 **collection only happens if GC find a significant no. of unreachable object**
 
-To improve performance,gc allocates large objects to a separate part of heap (G2) 
+To improve performance,gc allocates large objects to a separate part of heap called LOH
+
+
+
+when the collection happens 
 
 
 ![[IMG_20260723_110656.png]]
