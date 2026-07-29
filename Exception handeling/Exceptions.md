@@ -30,4 +30,8 @@
 ## throw vs throw e
 
 - throw - it preserves the original stack trace 
-- throw e- destroys the original stack trace it show the line where u wrote throw e instead of the
+- throw e- destroys the original stack trace it show the line where u wrote throw e instead of the original line where error happened.
+
+
+## when 
+this provides **exception filtering** it works as if condition but in catch block
