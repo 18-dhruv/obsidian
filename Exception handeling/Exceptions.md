@@ -17,3 +17,17 @@
 - ### Message - when the exception occurs, the runtime makes a text message available to inform the user the nature of error and to suggest how to resolve it·
 - ### stackTrace - the state of the stack when the exception was thrown. this trace list all the called methods and the line no. of source file where the methods are called·
  - ### InnerException - when u catch an exception we often want to throw custom exception that make more sense, so this property stores the original exception by
+
+
+
+
+
+
+
+
+
+
+## throw vs throw e
+
+- throw - it preserves the original stack trace 
+- throw e- destroys the original stack trace it show the line where u wrote throw e instead of the
