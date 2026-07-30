@@ -22,3 +22,5 @@ each computer that has CLR have machine wide code cashe called GAL. It stores as
  ### there are two way to install application to GAC
  - use a installer to designate to work with GAC. this is preffered 
  - GAC tool provided by windows SDK
+ - we can obtain programmatically information about an assembly using [[reflection]]
+## Create an assembly
