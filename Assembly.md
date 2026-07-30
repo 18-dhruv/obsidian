@@ -16,11 +16,13 @@ Both of them have identical structure (CIL + metadata + manifest) but both of th
   - contain reusable types, methods, classes meant to be refered by other code
 
 
-## GAC(global assembly cashe)
+## GAC(global assembly cashe) legacy
 each computer that has CLR have machine wide code cashe called GAL. It stores assemblies specification designated to shared by several application on computer
  
  ### there are two way to install application to GAC
  - use a installer to designate to work with GAC. this is preffered 
  - GAC tool provided by windows SDK
  - we can obtain programmatically information about an assembly using [[reflection]]
-## Create an assembly
+### GAC is legacy now the problem with GAC was suppose I have two  apps they defend on same assembly we want to update dependencies for one app but because of that the second app breaks because it defends on that to solve três problem we use NuGet 
+
+## NuGeT - flips the model instead of using the global copy, each project declare exactly which version it needs
