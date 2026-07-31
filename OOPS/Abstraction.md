@@ -1,4 +1,4 @@
-Hiding the implementation 
+ Hiding the implementation 
 
 
 ## solved problem by abstraction
@@ -15,11 +15,9 @@ But we expect different results from same method in this case print method. that
 ## virtual function 
 ### there are two ways to resolve a method call 
 
-
-#### static Binding (Early Binding) 
-The compiler looks at
+ ![InkWriting](<Ink/Writing/2026.7.31 - 10.40am.svg>) [Edit Writing](https://youtu.be/2arL1jh8ihA?type=inkWriting&aspectRatio=5.333)
 
 
-
-
-#### Late binding
+#### static Binding (Early Binding) - This is done on compile time
+The compiler looks at the declare type of account which is BankAccount and it hard code this call to BankAccount  version into the cil but we wanted the InterestBankAccount
+#### dynamic dispatch (Late binding) - 
