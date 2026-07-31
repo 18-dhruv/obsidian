@@ -28,4 +28,11 @@ Because compiler doesn't knows in what the real object type is, it will be decid
 without dynamic dispatch [[Polymorphism]] is impossible
 
 
-virtual function exists 
+virtual function exists specifically because of generic code to still triggers type specific behaviour, whithout the code needing to know on check what the concrete type actually is. 
+
+## How virtual function works under the hood
+Every class with virtual function gets a hidden method table - essentially a array of function pointer.
+every object of that class carries a hidden pointer (one table per type, shared by all instances of that type)
+it virtual function call is compiled as "follow the object's pointer->looks up in the method table jumps to the address provided there. this cost a small performance cost
+`
+
