@@ -1,8 +1,8 @@
- Hiding the implementation 
+l  Hiding the implementation 
 
 
 ## solved problem by abstraction
-suppose we are working on windows and we have to write a function that tells a printer to print but there is a challange . There are different companies who make printer so every time a new company comes we have to change source code of windows But the concept behind the abstraction say that windows dont need to know the different companies it just needs Print method.
+suppose we are working on windows and we have to write a function that tells a printer to print but there is a challange . There are different cmpanies who make printer so every time a new company comes we have to change source code of windows But the concept behind the abstraction say that windows dont need to know the different companies it just needs Print method.
 
 So we will just made a parent class printer and a function print().
 
@@ -34,5 +34,20 @@ virtual function exists specifically because of generic code to still triggers t
 Every class with virtual function gets a hidden method table - essentially a array of function pointer.
 every object of that class carries a hidden pointer (one table per type, shared by all instances of that type)
 it virtual function call is compiled as "follow the object's pointer->looks up in the method table jumps to the address provided there. this cost a small performance cost
-`
 
+
+# new keyword 
+its the opposite of the virtual keyword it deliberately do static binding.
+
+## we have two ways to achieve abstraction 
+- Abstract classes 
+- Interface 
+
+
+## Abstract class
+
+can we make constructor Abstract ?
+only the members which are inherited can be abstract 
+ ![InkWriting](<Ink/Writing/2026.8.3 - 10.12am.svg>) [Edit Writing](https://youtu.be/2arL1jh8ihA?type=inkWriting&aspectRatio=5.333)
+
+from this we know that every time we create a object for derived class first the fields that are inherited from the base class are initialized  first by calling the base class constructor then the derived class constructor is called. 
