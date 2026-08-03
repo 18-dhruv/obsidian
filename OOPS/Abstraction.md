@@ -1,4 +1,4 @@
-l  Hiding the implementation 
+ Hiding the implementation 
 
 
 ## solved problem by abstraction
@@ -38,7 +38,7 @@ it virtual function call is compiled as "follow the object's pointer->looks up i
 
 # new keyword 
 its the opposite of the virtual keyword it deliberately do static binding.
-
+Suppose a developer creates a function and don't use virtual in declaration so now u want use that method in derived class so u will use Keyword this will tell the Runtime that its a separate new method which doesn't have a relation with the base class method just the name is
 ## we have two ways to achieve abstraction 
 - Abstract classes 
 - Interface 
