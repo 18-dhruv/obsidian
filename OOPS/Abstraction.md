@@ -50,4 +50,4 @@ can we make constructor Abstract ?
 only the members which are inherited can be abstract 
  ![InkWriting](<Ink/Writing/2026.8.3 - 10.12am.svg>) [Edit Writing](https://youtu.be/2arL1jh8ihA?type=inkWriting&aspectRatio=5.333)
 
-from this we know that every time we create a object for derived class first the fields that are inherited from the base class are initialized  first by calling the base class constructor then the derived class constructor is called. 
+from this we know that every time we create a object for derived class first the fields that are inherited from the base class are initialized  first by calling the base class constructor then the derived class constructor is called.  
