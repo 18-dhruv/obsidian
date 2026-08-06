@@ -6,7 +6,7 @@ suppose we are working on windows and we have to write a function that tells a p
 
 So we will just made a parent class printer and a function print().
 
-## why did inheritance solves it 
+## why did inheritance dont solves it 
 by inheritance we will get the same function and the same implementations
 But we expect different results from same method in this case print method. that's why virtual function exists 
 
@@ -46,7 +46,7 @@ Suppose a developer creates a function and don't use virtual in declaration so n
 
 ## Abstract class
 
-can we make constructor Abstract ?
+can we make constructor Abstract ? Yes
 only the members which are inherited can be abstract 
  ![InkWriting](<Ink/Writing/2026.8.3 - 10.12am.svg>) [Edit Writing](https://youtu.be/2arL1jh8ihA?type=inkWriting&aspectRatio=5.333)
 
