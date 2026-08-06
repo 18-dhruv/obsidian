@@ -10,7 +10,6 @@ Both of them have identical structure (CIL + metadata + manifest) but both of th
    - It has a Entry point the OS/CLR calls to start execution (main)
    - It represent standalone application
    - only one main is allowed 
-
 - #### dll
    - No entry point 
   - contain reusable types, methods, classes meant to be refered by other code
