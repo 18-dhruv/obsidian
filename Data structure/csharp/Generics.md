@@ -11,7 +11,6 @@ But this also the reason we can't check the return type  at compile time in java
 
 
 
-
 # in case of .net
 
-
+when a write generic type, the compiler
