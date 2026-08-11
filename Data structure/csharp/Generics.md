@@ -12,5 +12,12 @@ But this also the reason we can't check the return type  at compile time in java
 
 
 # in case of .net
+when u write generic type, the compiler don't fully resolve it generates generic cil with placeholder.   
+ At each concrete instantiation CLR decides whether its a value type or a reference type both are handled differently
+ ## value type                                                                                                                                                   Node int  and Node double both get different machine code
+ This is why List int in C# is fast the underlying array is real int [] not an object [] full of boxed integer 
 
-when a write generic type, the compiler
+   ## Reference type                
+   
+
+
