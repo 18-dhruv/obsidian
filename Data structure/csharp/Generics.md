@@ -18,6 +18,13 @@ when u write generic type, the compiler don't fully resolve it generates generic
  This is why List int in C# is fast the underlying array is real int [] not an object [] full of boxed integer 
 
    ## Reference type                
-   
+
+
+## variance 
+It is a fart of Generics-specifically It's the rule set that governs whether a generic type built from a
+derived type argument can substitute from the same generics types built from a base type argument
+
+## types of variance
+- Invariance - 
 
 
