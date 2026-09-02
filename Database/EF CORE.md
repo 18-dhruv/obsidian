@@ -14,3 +14,7 @@ when u use EF core, you define C# classes and it translates the operation into c
  ![InkWriting](<Ink/Writing/2026.8.21 - 20.03pm.svg>) [Edit Writing](https://youtu.be/2arL1jh8ihA?type=inkWriting&aspectRatio=5.333)
 
 - onconfigration override this method 
+
+
+
+## Model Migration
