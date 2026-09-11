@@ -1,7 +1,5 @@
-
-
 # **CLR** (Common language Runtime)
-It is responsible for loading and execution of code writtein various Dot net programming lang 
+It is responsible for loading and execution of code written various Dot net programming lang 
 - When C# program is compiled  , It is first converted into CLI.  ^first-mention
 - (Comman intermediate Language) This is done by Language compilers in case of C Sharp It is CSE.exe 
 - This code can run on any platform that has CLR
@@ -9,7 +7,8 @@ It is responsible for loading and execution of code writtein various Dot net pro
 # Working of CLR :-
 ## Compilation and execution :-
  - when we write ==c sharp== code it get converted into [[CLR#^first-mention|CLI]] and metadata( this metadata  tells  that what are the datatype what are there definations, to which member this data type reference)
- - then CLR uses JIT to convert into machine specific code (It happens when program runs). 
+ - then CLR uses JIT to convert into machine specific code (It happens when progr
+am runs). 
 ## Services provided by CLR :-
 - CLR handles [[automatic memory management]] throug memory leaks 
 - It ensures that data type is used safely and correctly 

@@ -1,4 +1,3 @@
-1
 # It is one of the service provided by [[CLR]] provided during [[managed executions process]]. [[GC]] which is a part of  CLR it is done by that
 
 
@@ -26,4 +25,4 @@ To improve performance,gc allocates large objects to a separate part of heap cal
 when the collection happens 
 
 
-![[IMG_20260723_110656.png]]
+``![[IMG_20260723_110656.png]]
