@@ -7,11 +7,11 @@ Before you can run cil, it must be compiled against the CRE to native code for t
 ### there are two ways to perform this conversion 
 - [[JIT]]
 - [[Ngen.exe(Native image Generator)]] (this is used only in classic .net )
-- when it is rewriten to cross platform then they replaced it with [[crossgen]](it is the direct successor of negen.exe) 
+- when it is rewritten to cross platform then they replaced it with [[crossgen]](it is the direct successor of negen.exe) 
 - [[Native Aot]]
 
-both jit and and other aot are used in diffrent senarios when u have to ship the final app to the user u will use Aot .
-and if your app's il changes constantly then u will have to use jit.
+both jit and and other aot are used in diffrent scenarios when u have to ship the final app to the user u will use Aot .
+and if your app will changes constantly then u will have to use jit.
 
 ## 3. code verification :-
 as a part of compilation to native code , the CIL code must also pass a verification process . in this process CIL and metadata  are verified to find out whether the code is type safe or not  , and also examined for  in an attempt to confirm that the code  can access memory location and call methods only through proper defined types .

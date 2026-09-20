@@ -7,8 +7,7 @@ It is responsible for loading and execution of code written various Dot net prog
 # Working of CLR :-
 ## Compilation and execution :-
  - when we write ==c sharp== code it get converted into [[CLR#^first-mention|CLI]] and metadata( this metadata  tells  that what are the datatype what are there definations, to which member this data type reference)
- - then CLR uses JIT to convert into machine specific code (It happens when progr
-am runs). 
+ - then CLR uses JIT to convert into machine specific code (It happens when program runs). 
 ## Services provided by CLR :-
 - CLR handles [[automatic memory management]] throug memory leaks 
 - It ensures that data type is used safely and correctly 
