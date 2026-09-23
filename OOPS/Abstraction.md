@@ -2,7 +2,7 @@
 
 
 ## solved problem by abstraction
-suppose we are working on windows and we have to write a function that tells a printer to print but there is a challange . There are different cmpanies who make printer so every time a new company comes we have to change source code of windows But the concept behind the abstraction say that windows dont need to know the different companies it just needs Print method.
+suppose we are working on windows and we have to write a function that tells a printer to print but there is a challange . There are different companies who make printer so every time a new company comes we have to change source code of windows But the concept behind the abstraction say that windows dont need to know the different companies it just needs Print method.
 
 So we will just made a parent class printer and a function print().
 
@@ -37,7 +37,6 @@ it virtual function call is compiled as "follow the object's pointer->looks up i
 
 
 # new keyword 
-its the opposite of the virtual keyword it deliberately do static binding.
 Suppose a developer creates a function and don't use virtual in declaration so now u want use that method in derived class so u will use Keyword this will tell the Runtime that its a separate new method which doesn't have a relation with the base class method just the name is
 ## we have two ways to achieve abstraction 
 - Abstract classes 
