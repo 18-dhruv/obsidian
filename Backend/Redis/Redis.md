@@ -1,0 +1,1 @@
+ - IConnectionMultiplexer is the main object in Stock.Exchange.Redis This is the connection to redis server, it's called a multiplexer because one connection carries the command from every request in your app at the same time mixed together over a single TCP Socket
